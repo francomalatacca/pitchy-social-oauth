@@ -1,0 +1,31 @@
+{
+  "name": "pitchy-social-oauth",
+  "version": "0.0.1",
+  "description": "JSON Web Token authentication service",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francomalatacca/pitchy-social-oauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francomalatacca/pitchy-social-oauth/issues"
+  },
+  "homepage": "https://github.com/francomalatacca/pitchy-social-oauth#readme",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
